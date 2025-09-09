@@ -33,17 +33,25 @@ cd Chicken-Disease-Classification-Deep-learning
 
 ### 2. Create & Activate Conda Environment
 
+```bash
 conda create -n cnn python=3.8 -y
 conda activate cnn
+```
 
 ### 3. Install Requirements
 
+```bash
 pip install -r requirements.txt
+```
 
 ### In order Running the Train the Model run
 
+```bash
 python main.py
+```
 
 ### Start the FastAPI Server
 
+```bash
 python app.py
+```
